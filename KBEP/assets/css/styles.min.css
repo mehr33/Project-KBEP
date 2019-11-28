@@ -1,0 +1,50 @@
+body{font-family:Lato,sans-serif}
+.tt-suggestion{color:#fff;margin:0;padding:8px;font-size:11px;white-space:nowrap!important;text-overflow:ellipsis;overflow:hidden}
+.tt-suggestion small{display:block;margin:2px 0;color:#999}.tt-cursor{background:#00f}
+.tt-menu{background:linear-gradient(#313131,#131313);color:#fff}
+.footer-basic,.jumbotron,.navbar.navbar-light.navbar-expand-md.sticky-top.shadow-sm{background-color:#fff}
+.empty-typeahead-message{padding:5px;color:#fff}
+.tt-hint,.tt-query,
+.typeahead{padding:8px 12px;border:2px solid #ccc;outline:0}
+.typeahead:focus{border:2px solid #0097cf}label{display:block;padding:.25rem}body>div,h1{padding:1rem}
+.footer-basic{padding:40px 0;color:#4b4c4d}
+.footer-basic ul{padding:0;list-style:none;text-align:center;font-size:18px;line-height:1.6;margin-bottom:0}
+.footer-basic li{padding:0 10px}.footer-basic ul a{color:inherit;text-decoration:none;opacity:.8}
+.footer-basic ul a:hover{opacity:1}.footer-basic .social{text-align:center;padding-bottom:25px}
+.footer-basic .social>a
+{font-size:24px;width:40px;height:40px;line-height:40px;display:inline-block;text-align:center;
+    border-radius:50%;border:1px solid #ccc;margin:0 8px;color:inherit;opacity:.75}
+    .footer-basic 
+    .social>a:hover{opacity:.9}
+    .footer-basic .copyright{margin-top:15px;text-align:center;font-size:13px;color:#aaa;margin-bottom:0}
+    .ifram-body{width:80%;margin-left:10%;margin-right:10%}
+    .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:0;margin-left:0}
+    .col.button-1{margin:0;border-radius:0;padding:0}
+    .profile-image{width:300px;height:250px;margin:0;padding:0}
+    .text-center{padding-top:30px}@media (max-width:300px){.col.col1{width:400px;height:400px}}
+.profile-description{background-color:rgb(255, 255, 255);width:300px;height:250px;
+   /* border: solid 1px cornflowerblue ;
+   */ padding-left: 10px;
+}
+/*
+.div12 {
+    width: 100%;
+    height: 10px;
+
+    background-color: yellow;
+}*/
+.Feedback{
+ margin-top: -35px;
+
+    margin-left: 3%;
+}
+.Feedback input{
+
+    margin-top:15px;
+}ifram-body{
+    width: 70%;
+    height: 200px;
+}.submit-star{
+    margin-top: 10px;
+    
+}

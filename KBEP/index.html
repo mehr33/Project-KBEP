@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>profile.html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+    <!--link rel="stylesheet" href="/assets/css/styles.min.css?h=a6b60beab4c6bf14bf8a8366366bec83"-->
+    <link href="assets/css/styles.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="star-rating-busness.css">
+    <!--link rel="stylesheet" href="normaliz.css"-->
+    <link rel="stylesheet" href="star-rating.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top shadow-sm">
+        <div class="container-fluid"><a class="navbar-brand text-uppercase" href="/index.html">Home</a><button
+                class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active text-uppercase"
+                            href="about.html">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase text-dark"
+                            href="#">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-uppercase text-primary"
+                            href="login.html">login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col col1">
+            <div class="jumbotron">
+                <h5>Store Picture</h5>
+                <div class="profile-image">
+                    <img src="C:\Users\Mehrab Baloch\Desktop\bootstrap\turbut.jpg" alt="#"
+                        style="width: 300px; height: 250px;">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="jumbotron">
+                <h5>Business Detail</h5>
+                <div class="profile-description">
+                    <div class="business-detail">
+                        <p>Store Name :</p>
+                        <p>Ownar Name :</p>
+                        <p> Suppoting Employes :</p>
+                        <p>Phone Number :</p>
+                        <p>Address :</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="jumbotron">
+                <h5>Description</h5>
+                <div class="profile-description">
+                    <p> it is a Electronic shop</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron">
+                <h5 class="text-secondary">Feedback stars</h5>
+                <!-- busness srat rating -->
+                <div class=" star-busness">
+                    <input type="radio" name="star" id="star-rating-5" class="star-busness star-rating-5">
+                    <label class="star-busness star-5" for="star-rating-5"></label>
+                    <input type="radio" name="star" id="star-rating-4" class="star-busness star-rating-4">
+                    <label class="star-busness star-4" for="star-rating-4"></label>
+
+                    <input type="radio" name="star" id="star-rating-3" class="star-busness star-rating-3">
+                    <label class="star-busness star-3" for="star-rating-3"></label>
+
+                    <input type="radio" name="star" id="star-rating-2" class="star-busness star-rating-2">
+                    <label class="star-busness star-2" for="star-rating-2"></label>
+
+                    <input type="radio" name="star" id="star-rating-1" class="star-busness star-rating-1">
+                    <label class="star-busness star-1" for="star-rating-1"></label>
+                </div>
+                <!--div class="div12">
+                </div-->
+
+            </div>
+        </div>
+    </div>
+    <div class="text-left">
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Review</a></li>
+            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Map</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" role="tabpanel" id="tab-1">
+                <div>
+                    <div class="jumbotron">
+                        <div class="Feedback">
+                            <h5 class="text-secondary">Feedback</h5>
+                            <form action="" method="GET">
+
+                                <label>
+                                    <h5 class="text-secondary">Name :
+                                        <input type="text" placeholder="Enter the name">
+                                    </h5>
+                                </label>
+                                <!-- user star rating -->
+                                <div class=" stars">
+
+                                    <input type="radio" value="5" name="star" id="star-5" class="star star-5">
+                                    <label class="star star-5" for="star-5"></label>
+                                    <input type="radio" value="4" name="star" id="star-4" class="star star-4">
+                                    <label class="star star-4" for="star-4"></label>
+
+                                    <input type="radio" value="3" name="star" id="star-3" class="star star-3">
+                                    <label class="star star-3" for="star-3"></label>
+
+                                    <input type="radio" value="2" name="star" id="star-2" class="star star-2">
+                                    <label class="star star-2" for="star-2"></label>
+
+                                    <input type="radio" value="1" name="star" id="star-1" class="star star-1">
+                                    <label class="star star-1" for="star-1"></label>
+
+
+                                </div>
+                                <div class=" row" style="margin-top:100px;">
+
+                                    <textarea name="Comment" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <input type="submit" value="submit" class="btn btn-primary">
+                            </form>
+
+                            <!--p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis
+                            in, egestas eget quam.</p>
+                        <p><a class="btn btn-primary" role="button" href="#">Learn more</a></p-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="tab-2">
+                <div class="ifram-body">
+                    <!-- Start: iframe-2 -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229500.8642747264!2d62.892692187376724!3d26.002422335329666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb8a77d2a04e2eb%3A0x87c0ee28d490da36!2sTurbat%2C%20Kech%2C%20Balochistan%2C%20Pakistan!5e0!3m2!1sen!2s!4v1574156559917!5m2!1sen!2s"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <!-- End: iframe-2 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start: Footer Basic -->
+    <div class="footer-basic">
+
+        <footer>
+            <!-- Start: Social Icons -->
+            <div class="social"><a href="#"><i class="icon ion-social-googleplus text-primary"></i></a><a href="#"><i
+                        class="icon ion-social-facebook text-primary"></i></a></div>
+            <!-- End: Social Icons -->
+            <!-- Start: Links -->
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <!-- End: Links -->
+            <!-- Start: Copyright -->
+            <p class="copyright">Company Name © 2017</p>
+            <!-- End: Copyright -->
+        </footer>
+    </div>
+    <!-- End: Footer Basic -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--script
+        src="C:\Users\Mehrab Baloch\Desktop\bootstrap\bootstrap-4.0.0-dist\KBEP\assets\js\jquery\script.min.js"></script-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+    <!--script src="/assets/js/script.min.js?h=61aa7f56aa0a992c05d9fd73df7c0d40"></script -->
+    <!--script src="C:\Users\musli\Desktop\temp\assets\js\script.min.js/"></script -->
+    <script src="C:\Users\Mehrab Baloch\Desktop\bootstrap\bootstrap-4.0.0-dist\KBEP\assets\js\script.min.js"></script>
+
+</body>
+
+</html>
