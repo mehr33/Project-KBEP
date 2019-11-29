@@ -23,8 +23,8 @@ body{font-family:Lato,sans-serif}
     .profile-image{width:300px;height:250px;margin:0;padding:0}
     .text-center{padding-top:30px}@media (max-width:300px){.col.col1{width:400px;height:400px}}
 .profile-description{background-color:rgb(255, 255, 255);width:300px;height:250px;
-   /* border: solid 1px cornflowerblue ;
-   */ padding-left: 10px;
+    border: solid 1px cornflowerblue ;
+    padding-left: 10px;
 }
 /*
 .div12 {
